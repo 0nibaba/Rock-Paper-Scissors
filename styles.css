@@ -1,0 +1,115 @@
+@font-face {
+    font-family: '8bit';
+    src: url("/Pixel\ Emulator.otf");
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: '8bit';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #492b7c;
+    width: 100%;
+}
+
+#headerContent {
+    font-size: 56px;
+    -webkit-text-stroke: 2px #f6d912;
+    -webkit-text-fill-color: #ed8a0a;
+}
+
+#main {
+    flex: 1;
+    width: 100%;
+    background-color: #492b7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameSite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 35px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #f6d912;
+    border-radius: 10px;
+}
+
+#rockImage,
+#paperImage,
+#scissorImage {
+    height: 100px;
+    width: 100px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+}
+
+#top {
+    display: flex;
+    gap: 25px;
+}
+
+#yourChoiceImage,
+#cpuChoiceImage {
+    height: 250px;
+    width: 250px;
+}
+
+#playerChoice,
+#cpuChoice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#label {
+    font-size: 20px;
+    -webkit-text-stroke: .75px #ed8a0a;
+    -webkit-text-fill-color: #f6d912;
+}
+
+#score {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    -webkit-text-stroke: .75px #f6d912;
+    -webkit-text-fill-color: #ed8a0a;
+}
+
+#sign {
+    border: 2px dashed #f6d912;
+    height: 280px;
+}
